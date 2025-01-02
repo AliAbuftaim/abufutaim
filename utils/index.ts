@@ -20,12 +20,7 @@ export const constructMetadata = ({
     metadataBase: new URL("https://beaudelaire.ca/"),
     title: title ? `${title}` : defaultMetadata.title,
     description,
-    keywords: [
-      "portfolio",
-      "Ali",
-      "Abufutaim",
-      "Ali Abufutaim",
-    ],
+    keywords: ["portfolio", "Ali", "Abufutaim", "Ali Abufutaim"],
     alternates: {
       canonical,
     },

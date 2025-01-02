@@ -1,9 +1,6 @@
 "use client";
 
-import {
-  LuFolderHeart,
-  LuMessageCircle,
-} from "react-icons/lu";
+import { LuFolderHeart, LuMessageCircle } from "react-icons/lu";
 import {
   Navbar as NextUiNavbar,
   NavbarBrand,
@@ -18,7 +15,7 @@ import {
 } from "@nextui-org/react";
 import { usePathname } from "next/navigation";
 import { useReducer } from "react";
-import {FaHome} from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 
 const menuItems = ["Home", "Work", "Projects"];
 

@@ -1,12 +1,12 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
 import dynamic from "next/dynamic";
+import { IoMdRocket } from "react-icons/io";
 
 import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
 import Navbar from "@/components/navbar";
-import {IoMdRocket} from "react-icons/io";
 
 export const metadata: Metadata = {
   title: {
@@ -47,8 +47,8 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-5">
-                <span className="text-default-600">Ali</span>
-                <IoMdRocket size={20} />
+              <span className="text-default-600">Ali</span>
+              <IoMdRocket size={20} />
             </footer>
           </div>
         </Providers>
