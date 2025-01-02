@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+export default {
     images: {
         domains: [
             "api.microlink.io", // Microlink Image Preview
         ],
     },
 }
-
-module.exports = nextConfig
