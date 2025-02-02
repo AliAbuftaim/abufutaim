@@ -23,6 +23,18 @@ const projects: ProjectProps[] = [
     links: [],
     highlights: [
       {
+        imageUrl: "/projects/zephyrus/horizontal-zephyrus.jpeg",
+        title: "Horizontal Zephyrus",
+      },
+      {
+        imageUrl: "/projects/zephyrus/vertical-zephyrus.jpeg",
+        title: "Vertical Zephyrus",
+      },
+      {
+        imageUrl: "/projects/zephyrus/vertical-design.jpeg",
+        title: "Vertical Design",
+      },
+      {
         imageUrl: "/projects/zephyrus/system_assembly.jpeg",
         title: "System Assembly",
       },
@@ -47,13 +59,27 @@ const projects: ProjectProps[] = [
   {
     title: "Parachute Production",
     description:
-      "Annular Parachute: Led the design, development, and testing of an annular-type parachute for rocket recovery",
+      "DGB Parachute: Led the design, development, and testing of an DGB-type parachute for rocket recovery. The SRAD parachute represents a novel challenge for the team. A disk-gap-band design has been selected as the drogue parachute for the CR25 Aether. Manufacturing began in early 2025.",
     additionalInfo: [
       "Managed the project lifecycle, including cost tracking, resource procurement, and stakeholder engagement to ensure timely delivery",
       "The design process involved iterative analysis to meet performance requirements, while descent characteristics were empirically validated through testing",
       "Oversaw the manufacturing process, which included precise sewing and stitching of fabric panels (gores) to ensure structural integrity and functionality",
     ],
     links: [],
+    highlights: [
+      {
+        imageUrl: "/projects/parachute-production/parachute-1.jpeg",
+        title: "Parachute 1",
+      },
+      {
+        imageUrl: "/projects/parachute-production/parachute-2.jpeg",
+        title: "Parachute 2",
+      },
+      {
+        imageUrl: "/projects/parachute-production/parachute-3.jpeg",
+        title: "Parachute 3",
+      }
+    ],
   },
   {
     title: "CF Reinforced 3D Print Onyx Parabolic Rocket Nose Cone",
